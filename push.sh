@@ -7,5 +7,5 @@ git add --force build/ccxt.browser.js
 git commit -a -m "${COMMIT_MESSAGE}" -m '[ci skip]'
 git tag -a "${COMMIT_MESSAGE}" -m "${LAST_COMMIT_MESSAGE}" -m "" -m "[ci skip]"
 git remote remove origin
-git remote add origin https://${GITHUB_TOKEN}@github.com/ccxt/ccxt.git
+git remote add origin https://${GITHUB_TOKEN}@github.com/Simplicify/ccxt
 git push origin --tags HEAD:master
